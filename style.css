@@ -1,0 +1,1009 @@
+body{
+    margin: 0;
+}
+
+    .mobilenav, .mobileImg, .greenNav{
+        display: none;
+    }
+    .container {
+        width: 1200px;
+        margin: auto;
+    }
+    .menu ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        position: relative;
+    }
+    
+    .menu ul li a {
+        text-decoration: none;
+        padding: 15px 20px;
+        color: #475F45;
+    }
+    body > nav > div > ul > li:nth-child(1) {
+        flex: auto;
+    }
+    .menuRight {
+        line-height: .1rem;
+        margin-left: 5px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu {
+        padding: 10px 0;
+    }
+    
+    body > nav > div > ul > li:nth-child(7) > a {
+        border: 1px solid #475F45;
+    }
+    nav img {
+        width: 60px;
+    }
+    #one {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #one img {
+        height: 640.1895751953125px;
+        width: 458.2135009765625px;
+     
+        border-radius: [object Object]px;
+    }
+    
+    #one h3 {
+        width: 528px;
+        height: 126px;
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57px;
+        line-height: 110%;
+        text-transform: capitalize;
+        color: #343D33;
+    }
+    
+    #one p {
+        width: 471px;
+        height: 76px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 150%;
+        text-transform: capitalize;
+        color: #414840;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 370px;
+    }
+    .top img {
+        width: 534px;
+        height: 354px;
+        background: url(image.png);
+    }
+    .down img {
+        width: 1040px;
+        height: 409px;
+        background: url(image.png);
+        margin: auto;
+    }
+    .top {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 70px;
+       padding-top: 96px;
+       padding-right: 35px;
+        padding-left: 35px;
+    }
+    .twocontents .top{
+        justify-content: space-around;
+    }
+    #two h3 {
+        width: 417px;
+        height: 100px;
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 45px;
+        line-height: 110%;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    #two p {
+        width: 401px;
+        height: 120px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    #two > div.top > div > a {
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid;
+        padding: 15px 20px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    
+        text-align: center;
+    }
+    .down {
+        display: flex;
+        padding-bottom: 96px;
+    }
+    
+    section#two {/* Rectangle 23 */
+        margin-top: 100px;
+        background: #343D33;
+        position: relative;
+    }
+    
+    .buttons a:nth-child(1) {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 16px;
+        width: 80%;
+        text-align: center;
+        padding: 15px 20px;
+        border: 1px solid #475F45;
+        margin-right: 25px;
+        background-color: #475F45;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .buttons a:nth-child(2) {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 16px;
+        width: 80%;
+        text-align: center;
+        padding: 15px 20px;
+        border: 1px solid #475F45;
+        color: #475F45;
+    }
+    #two > img {
+        width: 560px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    /* Section Three */
+    .threeContent {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #three > div > div.left > img {
+        width: 520px;
+        margin-top: 32px;
+    }
+    
+    #three .right img {
+        width: 180px;
+    }
+    
+    .card {
+        display: flex;
+        align-items: center;
+    }
+    
+    .cardLeft {
+        margin-right: 20px;
+    }
+    
+    
+    body > footer > div > div.top {
+        background-color: #414840;
+        padding: 48px 0;
+        margin-bottom: 0;
+    }
+    
+    body > footer > div > div.top > div:nth-child(1) > img {
+        width: 221px;
+        height: 48px;
+    }
+    body > footer > div > div.top > div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    body > footer > div > div.top > div:nth-child(1) > p {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. */
+        width: 269px;
+        height: 96px;
+    /* text/small body */
+        font-family:  Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    body > footer > div > div.top > div:nth-child(2) > ul {list-style: none;
+    
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    body > footer > div > div.top > div:nth-child(2) > ul > li > a {
+        text-decoration: none;
+        color: #FFF;
+    
+    }
+    body > footer > div > div.top > div:nth-child(2) > ul > li {
+        height: 20px;     
+        font-family:  Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    body > footer > div > div.top > div:nth-child(2) > ul > li > h5 {
+          text-decoration: none;
+        color: #FFF;
+        height: 16px;
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: .7%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    body > footer > div > div.top > div:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+    }
+    body > footer > div > div.top > div:nth-child(3) > ul {
+        display: flex;
+        padding: 0;
+    }
+    body > footer > div > div.top > div:nth-child(3) > ul > li img {width: 22px;height: 18px;}
+    body > footer > div > div.top > div:nth-child(3) > ul > li {
+        /* text-decoration: none; */
+        list-style: none;
+        margin-right: 20px;
+    }
+    body > footer > div > div.top > div:nth-child(3) > h3 {
+        font-family: Libre Baskerville;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    body > footer > div > div.top > div:nth-child(3) > ul > li:nth-child(1) > a {
+        margin-left: 0 !important;
+    }
+    body > footer > div > div.down {
+        padding-bottom: 0;
+        background-color: #343D33;
+    }
+    body > footer > div > div.down > p {/* © 2021 Mist Gardens. All rights reserved. */
+        width: 256px;
+        height: 21px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: left;
+        color: #FFFFFF;
+        margin: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    body > footer > div > div.top > div:nth-child(2) > ul > li:nth-child(1) {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .twocontents {
+        background-color: #414840;
+    }
+    section#three {
+        padding: 20px;
+        width: 1040px;
+        margin: auto;
+        padding-top: 80px;
+    }    
+    #three > h2 {
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 110%;
+        color: #343D33;
+    }
+    #three > p {
+        margin: 0;  
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #475F45;
+        flex: none;
+    }   
+    #three > div > div.left > h3 {/* Plants Around Us */
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        color: #475F45;
+        margin-bottom: 10px;
+    }
+    
+    #three > div > div.left > p:nth-child(3) {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit... */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #414840;
+        margin-top: 0;
+    }
+    #three > div > div.left > p:nth-child(4) {/* December 23, 2021 */
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #414840;
+    }
+    #three > div > div.right > div h3 {/* Lush Gardens */
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px; 
+        color: #475F45;
+        margin-bottom: 0;
+    }
+    #three > div > div.right > div  p:nth-child(2) {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit... */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #414840;
+    }
+    #three > div > div.right > div  p:nth-child(3) {/* December 23, 2021 */
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 16px;
+        color: #414840;
+        margin-top: 0;
+    }
+
+    @media screen and (max-width: 767px) {
+        .twocontents .top{
+            display: flex;
+            flex-direction: column !important;
+            align-items: center !important;
+        }
+        body > footer > div > div.top > div:nth-child(1) > p {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. */
+            width: 269px;
+            height: 96px;
+        /* text/small body */
+            font-family:  Libre Baskerville;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+            text-align: center !important;
+        }
+        body > footer > div > div.top > div:nth-child(1) > img {
+            width: 221px;
+            height: 48px;
+            margin-top: 0;
+            align-self: center !important;
+        }
+        body > footer > div > div.top > div:nth-child(2) > ul {
+            list-style: none;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 0;
+            text-align: center !important;
+        }
+        body > footer > div > div.top > div:nth-child(3) {
+            display: flex;
+            flex-direction: column !important;
+            text-align: left !important;
+            align-items: center !important;
+        }
+        #one > div.left {
+            padding: 0 !important;
+        }
+        #two > div.top > div{
+            padding-right: 0 !important;
+            align-items: center !important;
+        }
+        #two h3{
+            text-align: center !important;
+        }
+        #two p{
+            text-align: center !important;
+        }
+        #three > div > div.left{
+            flex-direction: column;
+        }
+        .card{
+            flex-direction: column;
+            align-items: center !important;
+        }
+        .cards .card .cardRight{
+            align-items: center !important;
+        }
+        #three > div > div.right > div p:nth-child(2){
+            text-align: center !important;
+        }
+        #three > div > div.left > div{
+            align-items: center;
+            text-align: center;
+        }
+    }
+@media screen and (max-width: 992px) {
+    .mobilenav, .mobileImg{
+        display: block;
+    }
+    .down img {
+        display: none;
+    }
+    .desktopnav{
+        display: none;
+    }
+    .mobilenav {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+    }
+    #one h3{
+        font-size: 42px !important;
+    }
+  
+    #two > div.top{
+        margin-bottom: 15px;
+    }
+
+  
+    
+    body > nav > div.mobilenav > img:nth-child(1) {
+        width: 160px;
+    }
+    
+    body > nav > div.mobilenav > img:nth-child(2) {
+        width: 40px;
+        margin-right: 8px;
+    }
+    
+    .twocontents{
+        background-color: #343D33;
+    }
+    #one{
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    body > nav > div > ul > li:nth-child(1) {
+        flex: auto;
+    }
+    .menuRight {
+        line-height: .1rem;
+        margin-left: 5px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu {
+        padding: 10px 0;
+    }
+    
+    body > nav > div > ul > li:nth-child(7) > a {
+        border: 1px solid #475F45;
+    }
+    nav img {
+        width: 60px;
+    }
+    #one {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #one img {
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        width: 65%;
+    }
+    #one h3 {/* A beatiful adventure awaits */
+  
+        width: 100%;
+        height: 74px;
+   
+/* text/medium title */
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 110%;
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #343D33;
+    }
+    
+    #one p {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc */
+  
+        width: 100%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #414840;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+    .top img {/* Rectangle 21 */
+        width: 100%;
+        background: url(image.png);
+        height: 100%;
+      margin-top: 40px;
+    }
+    .down img {/* Rectangle 22 */
+        width: 95%;
+    height: 100%;
+        background: url(image.png);
+        margin: 0 auto;
+    }
+    .top {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 70px;
+       padding-top: 0;
+        padding-right: 25px;
+        padding-left: 20px;
+        flex-direction: column;
+    }
+    .twocontents .top{
+        display: flex;
+    flex-direction: revert;
+    /* align-items: center; */
+    }
+    #two h3 {/* Discover yourself with nature */
+    width: 100%;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 110%;
+    text-align: left;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    }
+    
+    #two p {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc */
+    /* text/default body */
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 0;
+    }
+    
+
+#two > div.top > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 55%;
+}
+#one > div.left {
+    padding: 0 27%;
+}
+    #two > div.top > div > a {
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid;
+        padding: 15px 20px;
+        font-family: Roboto;
+        /* font-style: normal; */
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .down {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    
+    section#two {/* Rectangle 23 */
+        margin-top: 100px;
+    /* Header text */
+        background: #343D33;
+        position: relative;
+    }
+    
+    .buttons a:nth-child(1) {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 16px;
+        width: 80%;
+        text-align: center;
+        padding: 15px 20px;
+        border: 1px solid #475F45;
+        margin-right: 25px;
+        background-color: #475F45;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .buttons a:nth-child(2) {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 16px;
+        width: 80%;
+        text-align: center;
+        padding: 15px 20px;
+        border: 1px solid #475F45;
+        color: #475F45;
+    }
+    #two > img {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        top: 500px;
+        bottom: 0;
+        margin: auto;
+    }
+    .threeContent {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #three > div > div.left > img {
+        width: 340px;
+        /* height: 100%; */
+        margin-top: 20px;
+    }
+    #three > div > div.left > div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    
+    #three > div > div.left {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    #three .right img {
+        width: 200px;
+    }
+    
+    .card {
+        display: flex;
+        align-items: flex-start;
+        /* flex-direction: column; */
+    }
+    .cards .card .cardRight {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cardLeft {
+        margin-right: 20px;
+    }
+    
+    
+    body > footer > div > div.top {
+        background-color: #414840;
+        padding: 48px 0;
+        margin-bottom: 0;
+    }
+    
+    body > footer > div > div.top > div:nth-child(1) > img {
+        width: 221px;
+        height: 48px;
+        margin-top: 0;
+        /* align-self: center; */
+    }
+    
+    body > footer > div > div.top > div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    body > footer > div > div.top > div:nth-child(1) > p {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. */
+        width: 269px;
+        height: 96px;
+    /* text/small body */
+        font-family:  Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        text-align: left;
+    }
+    body > footer > div > div.top > div:nth-child(2) > ul {
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        text-align: left;
+    }
+    
+    body > footer > div > div.top > div:nth-child(2) > ul > li > a {
+        text-decoration: none;
+        color: #FFF;
+    
+    }
+    body > footer > div > div.top > div:nth-child(2) > ul > li {
+        height: 20px;
+     
+        font-family:  Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    body > footer > div > div.top > div:nth-child(2) > ul > li > h5 {
+          text-decoration: none;
+        color: #FFF;
+    
+        height: 16px;
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: .7%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    body > footer > div > div.top > div:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+    }
+    
+    body > footer > div > div.top > div:nth-child(3) > ul {
+        display: flex;
+        padding: 0;
+    }
+    
+    body > footer > div > div.top > div:nth-child(3) > ul > li img {
+        width: 22px;
+        height: 18px;
+       margin-top: 0;
+}
+    
+    body > footer > div > div.top > div:nth-child(3) > ul > li {
+        list-style: none;
+        margin-right: 20px;
+    }
+    
+    body > footer > div > div.top > div:nth-child(3) > h3 {
+        font-family: Libre Baskerville;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    body > footer > div > div.top > div:nth-child(3) > ul > li:nth-child(1) > a {
+        margin-left: 0 !important;
+    }
+
+    body > footer > div > div.down {
+        padding-bottom: 0;
+        background-color: #343D33;
+    }
+    body > footer > div > div.down > p {/* © 2021 Mist Gardens. All rights reserved. */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: left;
+        color: #FFFFFF;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    
+    body > footer > div > div.top > div:nth-child(2) > ul > li:nth-child(1) {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .twocontents {
+        background-color: #414840;
+    }
+    section#three {
+        width: auto;
+        margin: auto;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    #three > h2 {
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 110%;
+        color: #343D33;
+    }
+
+    #three > p {
+        margin: 0;  
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #475F45;
+        flex: none;
+    }   
+    #three > div > div.left > h3 {/* Plants Around Us */
+    /* text/small title */
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        /* line-height: 110%; */
+    /* or 25px */
+        text-align: center;
+    /* Primary */
+        color: #475F45;
+        margin-bottom: 10px;
+    }
+    
+    #three > div > div.left > p:nth-child(3) {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit... */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #414840;
+        margin-top: 0;
+    }
+    #three > div > div.left > p:nth-child(4) {/* December 23, 2021 */
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #414840;
+    }
+
+    #three > div > div.right > div h3 {/* Lush Gardens */
+      
+        font-family: Libre Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px; 
+        text-align: center;
+        color: #475F45;
+        margin-bottom: 0;
+    }
+    #three > div > div.right > div  p:nth-child(2) {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit... */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #414840;
+    }
+    #three > div > div.right > div  p:nth-child(3) {/* December 23, 2021 */
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: center;
+        color: #414840;
+        margin-top: 0;
+    }
+    .cards .card .cardRight p:nth-child(2) {
+        text-align: left !important;
+    }
+    .greenNav {
+        background-color: #475f45;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999999999;
+        max-width: 865px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .greenNav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 5rem;
+        list-style: none;
+        padding: 0;
+    }
+    .greenNav h3 {
+        text-align: center;
+        font-size: 38px;
+        color: #fff;
+    }
+
+    .greenNav li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 21px;
+    }
+    body > nav > div.greenNav > ul > li:nth-child(6) {
+        border: 1px solid #fff;
+    }
+    body > nav > div.greenNav > ul > li:nth-child(6) > a {
+        padding: 15px 20px;
+    }
+}
+
+
+body.Show .greenNav{
+    display: block;
+}
